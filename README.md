@@ -81,4 +81,41 @@ I split the existing jump animation into a beginning, middle, and end. It seems 
 
 https://user-images.githubusercontent.com/109536729/187090764-e75e07bb-752d-4d46-abd9-9ba6f3fae851.mp4
 
+## Final Update
+The final update of this project focused on designing throwable bombs and defining their behaivor.
+
+
+The throwable blueprint that all of the bombs inherit from.
+
+
+<img width="719" alt="Screenshot 2022-10-02 225221" src="https://user-images.githubusercontent.com/109536729/193498622-62be502b-7913-478e-a5a9-8896b18e2644.png">
+
+
+
+The first bomb type is a normal bomb. The bomb is dropped at the player's feet and is rolled in the direction that the player is facing.
+
+
+
+https://user-images.githubusercontent.com/109536729/193499280-eb84bf48-c954-4d01-904c-18e3a597b7fc.mp4
+
+
+
+
+The second bomb type is a longbow bomb. The bomb travels in a straight line in the direction the player is aiming the camera. The damage scales with distance traveled.
+
+
+
+
+https://user-images.githubusercontent.com/109536729/193499456-8b02a398-7497-411d-883f-850581f95014.mp4
+
+
+
+
+The final bomb type is a lobbed bomb. The bomb is 'lobbed' in the air based on where the player is aiming the camera. The size and damage of the bomb scales with time in the air before hitting something.
+
+
+
+
+
+https://user-images.githubusercontent.com/109536729/193499794-ba0b685f-e102-4296-8253-99076e646159.mp4
 
